@@ -1,0 +1,6 @@
+c:\Projects\EasyClass\EasyClass\bin\Release\EasyClass.dll
+c:\Projects\EasyClass\EasyClass\bin\Release\EasyClass.pdb
+c:\Projects\EasyClass\EasyClass\bin\Release\Newtonsoft.Json.dll
+c:\Projects\EasyClass\EasyClass\bin\Release\Newtonsoft.Json.xml
+c:\Projects\EasyClass\EasyClass\obj\Release\EasyClass.dll
+c:\Projects\EasyClass\EasyClass\obj\Release\EasyClass.pdb
