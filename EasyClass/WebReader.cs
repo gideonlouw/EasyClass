@@ -42,11 +42,11 @@ namespace EasyClass
 
             if (classoutputfolder == null)
             {
-                path = Directory.GetCurrentDirectory() + "/" + classname + ".cs";
+                path = Directory.GetCurrentDirectory() + @"\" + classname + ".cs";
             }
             else
             {
-                path = classoutputfolder + "/" + classname + ".cs";
+                path = classoutputfolder + @"\" + classname + ".cs";
             }
 
             //Create class file
@@ -57,25 +57,15 @@ namespace EasyClass
             sw.WriteLine("public class " + classname);
             sw.WriteLine("{");
 
-            JObject jObject = JObject.Parse(workData);
-            var voxzalData = jObject["query_result"][0];
-            foreach (var vData in voxzalData)
+            JObject jo = JObject.Parse(workData);
+
+            foreach (var item in jo)
             {
-                var counter = vData.Count();
+                var entry = item.Key;
 
-                var entry = vData.First().ToString();
-                var actualdata = entry.Split(':');
-                sw.WriteLine("public string " + actualdata[0].ToString().Replace("\"", "") + " { get; set; }");
-
-                for (int i = 1; i < counter; i++)
-                {
-                    entry = vData.Skip(i).First().ToString();
-                    actualdata = entry.Split(':');
-
-                    sw.WriteLine("public string " + actualdata[0].ToString().Replace("\"", "") + " { get; set; }");
-                }
-
+                sw.WriteLine("public string " + entry.ToString().Replace("\"", "") + " { get; set; }");
             }
+
             sw.WriteLine("}");
             sw.WriteLine("}");
             sw.Close();
