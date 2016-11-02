@@ -4,3 +4,9 @@ c:\Projects\EasyClass\EasyClass\bin\Debug\Newtonsoft.Json.dll
 c:\Projects\EasyClass\EasyClass\bin\Debug\Newtonsoft.Json.xml
 c:\Projects\EasyClass\EasyClass\obj\Debug\EasyClass.dll
 c:\Projects\EasyClass\EasyClass\obj\Debug\EasyClass.pdb
+C:\Users\gideonl\EasyClass\EasyClass\bin\Debug\EasyClass.dll
+C:\Users\gideonl\EasyClass\EasyClass\bin\Debug\EasyClass.pdb
+C:\Users\gideonl\EasyClass\EasyClass\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gideonl\EasyClass\EasyClass\bin\Debug\Newtonsoft.Json.xml
+C:\Users\gideonl\EasyClass\EasyClass\obj\Debug\EasyClass.dll
+C:\Users\gideonl\EasyClass\EasyClass\obj\Debug\EasyClass.pdb
